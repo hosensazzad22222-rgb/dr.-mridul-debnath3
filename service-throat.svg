@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="16" fill="#FEF3C7" opacity="0.3"/>
+  <rect width="400" height="240" rx="16" fill="#F0F9FF"/>
+  <circle cx="200" cy="120" r="70" fill="#E0F2FE"/>
+  <!-- Pharynx & Tonsils -->
+  <path d="M165 80c0 40 15 80 35 80s35-40 35-80" stroke="#005A9C" stroke-width="5" stroke-linecap="round"/>
+  <!-- Tonsil Nodes -->
+  <circle cx="178" cy="115" r="14" fill="#008080" opacity="0.8"/>
+  <circle cx="222" cy="115" r="14" fill="#008080" opacity="0.8"/>
+  <!-- Uvula -->
+  <path d="M200 95v15" stroke="#005A9C" stroke-width="4" stroke-linecap="round"/>
+  <!-- Protective ring -->
+  <circle cx="200" cy="120" r="48" stroke="#2ECC71" stroke-width="2.5" stroke-dasharray="4 4"/>
+</svg>

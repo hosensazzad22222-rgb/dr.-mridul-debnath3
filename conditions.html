@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENT Conditions &amp; Symptoms Guide | Dr. [DOCTOR_NAME]</title>
+  <meta name="description" content="Comprehensive patient guide to common ear, nose, throat, sinus, and voice conditions treated by ENT specialist Dr. [DOCTOR_NAME].">
+  <link rel="canonical" href="[WEBSITE_URL]/conditions.html">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Dr. [DOCTOR_NAME] ENT Clinic">
+        <img src="images/logo.svg" alt="ENT Specialist Logo" width="160" height="38">
+      </a>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="conditions.html" class="nav-link active">Conditions</a></li>
+          <li><a href="chambers.html" class="nav-link">Chambers</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:[PHONE]" class="header-phone-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <span>[PHONE]</span>
+        </a>
+        <a href="appointment.html" class="btn btn-primary btn-sm">Book Appointment</a>
+        <button class="mobile-nav-toggle" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header Banner -->
+    <section class="section-alt" style="padding: 3rem 0; border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <span class="text-kicker">Clinical Directory</span>
+        <h1>Conditions We Treat</h1>
+        <p style="font-size: 1.15rem; color: var(--text-muted); margin-top: 0.5rem; max-width: 750px;">
+          Explore detailed symptom descriptions, clinical signs, and evidence-based treatment pathways organized by anatomical region.
+        </p>
+      </div>
+    </section>
+
+    <!-- Conditions Filter & Detailed Accordion -->
+    <section class="section">
+      <div class="container" style="max-width: 900px;">
+        <!-- Tabs -->
+        <div class="conditions-tabs" role="tablist" aria-label="Condition Anatomy Categories">
+          <button class="tab-btn active" role="tab" aria-selected="true" data-category="ear">Ear Conditions</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-category="nose">Nose &amp; Sinus</button>
+          <button class="tab-btn" role="tab" aria-selected="false" data-category="throat">Throat &amp; Head</button>
+        </div>
+
+        <!-- Tab 1: Ear -->
+        <div class="conditions-category-content active" id="category-ear" role="tabpanel">
+          <!-- Condition 1 -->
+          <div class="condition-card is-open">
+            <button class="condition-header" aria-expanded="true">
+              <span class="condition-name">Otitis Media (Middle Ear Infection)</span>
+              <svg class="condition-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="condition-body">
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Clinical Overview</div>
+                <div class="condition-detail-text">
+                  Inflammation or infection of the middle ear space behind the eardrum, often triggered by upper respiratory tract infections or Eustachian tube dysfunction. Frequent in both pediatric and adult populations.
+                </div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Common Symptoms</div>
+                <div class="condition-detail-text">Ear pain, hearing loss, fluid drainage, fever.</div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Treatment Pathway</div>
+                <div class="condition-detail-text">Antibiotics, ear drops, or myringotomy tubes if persistent.</div>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="appointment.html?reason=Ear+Problem" class="btn btn-outline btn-sm">Schedule Ear Evaluation</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Condition 2 -->
+          <div class="condition-card">
+            <button class="condition-header" aria-expanded="false">
+              <span class="condition-name">Tinnitus</span>
+              <svg class="condition-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="condition-body">
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Clinical Overview</div>
+                <div class="condition-detail-text">
+                  The perception of sound when no external acoustic stimulus is present. May stem from hair cell damage in the cochlea, noise exposure, vascular anomalies, or acoustic neuroma.
+                </div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Common Symptoms</div>
+                <div class="condition-detail-text">Ringing, buzzing, or hissing sounds in the ear.</div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Treatment Pathway</div>
+                <div class="condition-detail-text">Sound therapy, counseling, and underlying cause management.</div>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="appointment.html?reason=Ear+Problem" class="btn btn-outline btn-sm">Schedule Tinnitus Assessment</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Nose -->
+        <div class="conditions-category-content" id="category-nose" role="tabpanel">
+          <!-- Condition 3 -->
+          <div class="condition-card is-open">
+            <button class="condition-header" aria-expanded="true">
+              <span class="condition-name">Deviated Septum</span>
+              <svg class="condition-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="condition-body">
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Clinical Overview</div>
+                <div class="condition-detail-text">
+                  Displacement of the nasal septum (the bone and cartilage dividing the nasal cavity), obstructing airflow and increasing susceptibility to recurrent sinus infections.
+                </div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Common Symptoms</div>
+                <div class="condition-detail-text">Nasal congestion, nosebleeds, headaches, snoring.</div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Treatment Pathway</div>
+                <div class="condition-detail-text">Nasal sprays or Septoplasty surgery.</div>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="appointment.html?reason=Nose/Sinus+Problem" class="btn btn-outline btn-sm">Schedule Septal Evaluation</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Condition 4 -->
+          <div class="condition-card">
+            <button class="condition-header" aria-expanded="false">
+              <span class="condition-name">Nasal Polyps</span>
+              <svg class="condition-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="condition-body">
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Clinical Overview</div>
+                <div class="condition-detail-text">
+                  Soft, painless, noncancerous growths on the lining of nasal passages or sinuses associated with chronic inflammation, asthma, recurring infections, or aspirin sensitivity.
+                </div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Common Symptoms</div>
+                <div class="condition-detail-text">Runny nose, persistent stuffiness, decreased sense of smell.</div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Treatment Pathway</div>
+                <div class="condition-detail-text">Steroid sprays, biologics, or endoscopic sinus surgery.</div>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="appointment.html?reason=Nose/Sinus+Problem" class="btn btn-outline btn-sm">Schedule Nasal Endoscopy</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Throat & Head -->
+        <div class="conditions-category-content" id="category-throat" role="tabpanel">
+          <!-- Condition 5 -->
+          <div class="condition-card is-open">
+            <button class="condition-header" aria-expanded="true">
+              <span class="condition-name">Acid Reflux (Laryngopharyngeal Reflux / LPR)</span>
+              <svg class="condition-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="condition-body">
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Clinical Overview</div>
+                <div class="condition-detail-text">
+                  Often known as "silent reflux," LPR occurs when gastric acid flows up through the esophagus into the larynx and pharynx, irritating delicate vocal cords without typical heartburn sensation.
+                </div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Common Symptoms</div>
+                <div class="condition-detail-text">Chronic throat clearing, lump sensation, hoarseness.</div>
+              </div>
+              <div class="condition-detail-row">
+                <div class="condition-detail-title">Treatment Pathway</div>
+                <div class="condition-detail-text">Dietary changes and proton pump inhibitors.</div>
+              </div>
+              <div style="margin-top: 1.25rem;">
+                <a href="appointment.html?reason=Throat/Voice+Problem" class="btn btn-outline btn-sm">Schedule Throat Consultation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-disclaimer-box">
+        <p><strong>Medical Disclaimer:</strong> The information provided on this website is for educational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment.</p>
+      </div>
+      <div class="footer-bottom">
+        <div>© <span class="placeholder-tag">[YEAR]</span> <span class="placeholder-tag">[DOCTOR_NAME]</span>. All Rights Reserved.</div>
+        <div><a href="index.html">Home</a> · <a href="appointment.html">Book Appointment</a> · <a href="contact.html">Contact</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>

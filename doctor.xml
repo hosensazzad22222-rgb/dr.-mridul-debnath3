@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  MASTER SOURCE OF TRUTH: ENT DOCTOR WEBSITE CONFIGURATION
+  All content, theme settings, doctor details, services, chambers, and SEO are configured here.
+-->
+<doctorWebsite>
+  <!-- 1. GLOBAL SETTINGS -->
+  <globalSettings>
+    <brand>
+      <websiteName>[WEBSITE_NAME]</websiteName>
+      <websiteUrl>[WEBSITE_URL]</websiteUrl>
+      <logoPath>images/logo.svg</logoPath>
+      <faviconPath>images/favicon.svg</faviconPath>
+      <tagline>Expert Care for Ear, Nose, and Throat Health</tagline>
+    </brand>
+    <contactPrimary>
+      <phone>[PHONE]</phone>
+      <whatsapp>[WHATSAPP]</whatsapp>
+      <email>[EMAIL]</email>
+      <appointmentUrl>appointment.html</appointmentUrl>
+    </contactPrimary>
+    <socialMedia>
+      <facebook>[FACEBOOK_URL]</facebook>
+      <linkedin>[LINKEDIN_URL]</linkedin>
+      <instagram>[INSTAGRAM_URL]</instagram>
+      <youtube>[YOUTUBE_URL]</youtube>
+      <twitter>[TWITTER_URL]</twitter>
+    </socialMedia>
+    <localization>
+      <language>en-US</language>
+      <direction>LTR</direction>
+      <currency>USD</currency>
+      <dateFormat>MMMM DD, YYYY</dateFormat>
+    </localization>
+    <legal>
+      <copyrightText>© [YEAR] [DOCTOR_NAME]. All Rights Reserved.</copyrightText>
+      <privacyPolicyUrl>#privacy-policy</privacyPolicyUrl>
+      <termsUrl>#terms-of-service</termsUrl>
+      <medicalDisclaimer>The information provided on this website is for educational purposes only and is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.</medicalDisclaimer>
+    </legal>
+  </globalSettings>
+
+  <!-- 2. THEME SETTINGS (Visual Identity) -->
+  <themeSettings>
+    <colorPalette>
+      <primary>#005A9C</primary> <!-- Medical Blue -->
+      <secondary>#008080</secondary> <!-- Teal -->
+      <accent>#2ECC71</accent> <!-- Soft Medical Green -->
+      <backgroundMain>#FFFFFF</backgroundMain>
+      <backgroundAlt>#F8FAFC</backgroundAlt>
+      <textDark>#002147</textDark> <!-- Dark Navy -->
+      <textMuted>#4A5568</textMuted> <!-- Charcoal -->
+      <borderLight>#E2E8F0</borderLight>
+    </colorPalette>
+    <typography>
+      <fontHeading>'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif</fontHeading>
+      <fontBody>'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif</fontBody>
+      <baseFontSize>16px</baseFontSize>
+    </typography>
+    <uiStyle>
+      <borderRadius>8px</borderRadius>
+      <buttonStyle>Solid/Rounded</buttonStyle>
+      <cardStyle>Elevated</cardStyle>
+      <shadowIntensity>Soft</shadowIntensity>
+      <animationEnabled>true</animationEnabled>
+      <animationSpeed>0.3s</animationSpeed>
+      <containerWidth>1200px</containerWidth>
+    </uiStyle>
+  </themeSettings>
+
+  <!-- 3. DOCTOR PROFILE -->
+  <doctorProfile>
+    <personalInfo>
+      <fullName>[DOCTOR_NAME]</fullName>
+      <professionalTitle>[PROFESSIONAL_TITLE]</professionalTitle>
+      <degrees>[DEGREES]</degrees>
+      <specialization>Otolaryngology (ENT Specialist)</specialization>
+      <subSpecialization>[SUB_SPECIALIZATION]</subSpecialization>
+      <registrationNumber>[REGISTRATION_NUMBER]</registrationNumber>
+      <yearsExperience>[YEARS_OF_EXPERIENCE]</yearsExperience>
+      <profileImage>images/doctor.svg</profileImage>
+      <signatureImage>images/signature.svg</signatureImage>
+    </personalInfo>
+    <biography>
+      <shortBio>[DEMO_CONTENT] Dr. [DOCTOR_NAME] is a board-certified ENT specialist with over [YEARS_OF_EXPERIENCE] years of experience in diagnosing and treating complex ear, nose, and throat conditions.</shortBio>
+      <fullBio>[DEMO_CONTENT] Dr. [DOCTOR_NAME] specializes in advanced ENT care, ranging from pediatric otolaryngology to complex sinus surgeries. After completing medical training at [UNIVERSITY], Dr. [DOCTOR_NAME] has dedicated their career to providing patient-centered care using the latest diagnostic technologies.</fullBio>
+    </biography>
+    <credentials>
+      <memberships>
+        <item>American Academy of Otolaryngology-Head and Neck Surgery</item>
+        <item>International Federation of ORL Societies (IFOS)</item>
+      </memberships>
+      <awards>
+        <item>Best ENT Specialist of the Year [YEAR]</item>
+        <item>Excellence in Patient Care Award</item>
+      </awards>
+      <training>
+        <item>Fellowship in Rhinology and Skull Base Surgery</item>
+        <item>Advanced Training in Cochlear Implants</item>
+      </training>
+      <languages>
+        <language>English</language>
+        <language>Spanish</language>
+      </languages>
+    </credentials>
+  </doctorProfile>
+
+  <!-- 4. NAVIGATION -->
+  <navigation>
+    <menuItem id="nav-home" enabled="true" label="Home" link="index.html" />
+    <menuItem id="nav-about" enabled="true" label="About" link="about.html" />
+    <menuItem id="nav-services" enabled="true" label="Services" link="services.html" />
+    <menuItem id="nav-conditions" enabled="true" label="Conditions" link="conditions.html" />
+    <menuItem id="nav-chambers" enabled="true" label="Chambers" link="chambers.html" />
+    <menuItem id="nav-blog" enabled="true" label="Blog" link="blog.html" />
+    <menuItem id="nav-contact" enabled="true" label="Contact" link="contact.html" />
+    <menuItem id="nav-appointment" enabled="true" label="Book Appointment" link="appointment.html" featured="true" />
+  </navigation>
+
+  <!-- 5. HERO SECTION -->
+  <heroSection>
+    <badgeText>Trusted ENT Specialist</badgeText>
+    <headline>Comprehensive Care for Ear, Nose, &amp; Throat Conditions</headline>
+    <description>Providing expert diagnosis and personalized treatment plans for patients of all ages using modern medical technology.</description>
+    <ctaPrimary label="Book Appointment" link="appointment.html" />
+    <ctaSecondary label="View Services" link="services.html" />
+    <trustIndicators>
+      <indicator label="Patients Treated" value="10k+" />
+      <indicator label="Experience" value="[YEARS_OF_EXPERIENCE] Years" />
+      <indicator label="Success Rate" value="High Quality Care" />
+    </trustIndicators>
+    <imagePath>images/hero.svg</imagePath>
+  </heroSection>
+
+  <!-- 6. SERVICES SECTION -->
+  <servicesSection>
+    <title>Our ENT Services</title>
+    <subtitle>Specialized medical care for your sensory health</subtitle>
+    <services>
+      <service id="ear-infection">
+        <title>Ear Infection Treatment</title>
+        <shortDescription>Comprehensive care for acute and chronic ear infections in adults and children.</shortDescription>
+        <icon>ear-icon</icon>
+        <image>images/service-ear.svg</image>
+        <keywords>otitis media, ear pain, ear drainage</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="hearing-loss">
+        <title>Hearing Evaluation &amp; Management</title>
+        <shortDescription>Advanced diagnostic testing for hearing loss and expert guidance on hearing solutions.</shortDescription>
+        <icon>hearing-icon</icon>
+        <image>images/service-hearing.svg</image>
+        <keywords>hearing aid, audiometry, deafness</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="sinusitis">
+        <title>Sinus &amp; Allergy Care</title>
+        <shortDescription>Treatment for chronic sinusitis, nasal polyps, and seasonal allergic rhinitis.</shortDescription>
+        <icon>nose-icon</icon>
+        <image>images/service-sinus.svg</image>
+        <keywords>sinusitis, nasal blockage, hay fever</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="tonsillitis">
+        <title>Tonsil &amp; Throat Care</title>
+        <shortDescription>Surgical and non-surgical management of tonsillitis and throat infections.</shortDescription>
+        <icon>throat-icon</icon>
+        <image>images/service-throat.svg</image>
+        <keywords>tonsils, sore throat, strep throat</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="voice-disorders">
+        <title>Voice &amp; Swallowing</title>
+        <shortDescription>Diagnosis and treatment for hoarseness, vocal cord nodules, and dysphagia.</shortDescription>
+        <icon>voice-icon</icon>
+        <image>images/service-voice.svg</image>
+        <keywords>hoarseness, vocal cord, swallowing problems</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="snoring-sleep">
+        <title>Snoring &amp; Sleep Apnea</title>
+        <shortDescription>Evaluating sleep-disordered breathing and providing effective airway management.</shortDescription>
+        <icon>sleep-icon</icon>
+        <image>images/service-sleep.svg</image>
+        <keywords>snoring, sleep apnea, CPAP alternative</keywords>
+        <enabled>true</enabled>
+      </service>
+      <service id="vertigo-balance">
+        <title>Vertigo &amp; Dizziness</title>
+        <shortDescription>Specialized diagnostic approach to inner ear balance disorders and vertigo.</shortDescription>
+        <icon>balance-icon</icon>
+        <image>images/service-balance.svg</image>
+        <keywords>dizziness, BPPV, labyrinthitis</keywords>
+        <enabled>true</enabled>
+      </service>
+    </services>
+  </servicesSection>
+
+  <!-- 7. CONDITIONS SECTION -->
+  <conditionsSection>
+    <title>Conditions We Treat</title>
+    <categories>
+      <category name="Ear">
+        <condition slug="otitis-media">
+          <name>Otitis Media (Middle Ear Infection)</name>
+          <symptoms>Ear pain, hearing loss, fluid drainage, fever.</symptoms>
+          <treatment>Antibiotics, ear drops, or myringotomy tubes if persistent.</treatment>
+        </condition>
+        <condition slug="tinnitus">
+          <name>Tinnitus</name>
+          <symptoms>Ringing, buzzing, or hissing sounds in the ear.</symptoms>
+          <treatment>Sound therapy, counseling, and underlying cause management.</treatment>
+        </condition>
+      </category>
+      <category name="Nose">
+        <condition slug="deviated-septum">
+          <name>Deviated Septum</name>
+          <symptoms>Nasal congestion, nosebleeds, headaches, snoring.</symptoms>
+          <treatment>Nasal sprays or Septoplasty surgery.</treatment>
+        </condition>
+        <condition slug="nasal-polyps">
+          <name>Nasal Polyps</name>
+          <symptoms>Runny nose, persistent stuffiness, decreased sense of smell.</symptoms>
+          <treatment>Steroid sprays, biologics, or endoscopic sinus surgery.</treatment>
+        </condition>
+      </category>
+      <category name="Throat &amp; Head">
+        <condition slug="gerd-lpr">
+          <name>Acid Reflux (LPR)</name>
+          <symptoms>Chronic throat clearing, lump sensation, hoarseness.</symptoms>
+          <treatment>Dietary changes and proton pump inhibitors.</treatment>
+        </condition>
+      </category>
+    </categories>
+  </conditionsSection>
+
+  <!-- 8. WHY CHOOSE SECTION -->
+  <whyChooseSection>
+    <title>Why Patients Trust Us</title>
+    <benefits>
+      <benefit>
+        <icon>doctor-icon</icon>
+        <title>Expert Specialist</title>
+        <description>Highly qualified and experienced in advanced ENT surgical procedures.</description>
+      </benefit>
+      <benefit>
+        <icon>tech-icon</icon>
+        <title>Modern Technology</title>
+        <description>Equipped with state-of-the-art diagnostic and surgical instruments.</description>
+      </benefit>
+      <benefit>
+        <icon>patient-icon</icon>
+        <title>Patient-Centered Care</title>
+        <description>Every treatment plan is tailored specifically to your unique health needs.</description>
+      </benefit>
+      <benefit>
+        <icon>child-icon</icon>
+        <title>Child-Friendly</title>
+        <description>Specialized care for pediatric ENT issues in a gentle environment.</description>
+      </benefit>
+    </benefits>
+  </whyChooseSection>
+
+  <!-- 9. APPOINTMENT SECTION -->
+  <appointmentSection>
+    <settings>
+      <enabled>true</enabled>
+      <formActionUrl>[BACKEND_URL_OR_API]</formActionUrl>
+      <title>Request an Appointment</title>
+      <description>Fill out the form below, and our team will contact you to confirm your visit.</description>
+      <submitButtonText>Request Booking</submitButtonText>
+    </settings>
+    <fields>
+      <field id="patient_name" type="text" label="Full Name" required="true" />
+      <field id="patient_phone" type="tel" label="Phone Number" required="true" />
+      <field id="patient_email" type="email" label="Email Address" required="true" />
+      <field id="visit_reason" type="select" label="Reason for Visit">
+        <option>Ear Problem</option>
+        <option>Nose/Sinus Problem</option>
+        <option>Throat/Voice Problem</option>
+        <option>Hearing Assessment</option>
+        <option>Other</option>
+      </field>
+      <field id="preferred_date" type="date" label="Preferred Date" required="true" />
+      <field id="preferred_chamber" type="select" label="Preferred Chamber" required="true" />
+    </fields>
+  </appointmentSection>
+
+  <!-- 10. CHAMBER / CLINIC INFORMATION -->
+  <chambersSection>
+    <title>Our Chambers</title>
+    <chambers>
+      <chamber id="chamber-1">
+        <name>[CHAMBER_NAME_1]</name>
+        <hospital>[HOSPITAL_NAME_1]</hospital>
+        <address>[CHAMBER_ADDRESS_1]</address>
+        <city>[CITY_1]</city>
+        <phone>[APPOINTMENT_PHONE_1]</phone>
+        <googleMapsUrl>[GOOGLE_MAPS_URL_1]</googleMapsUrl>
+        <mapEmbedUrl>[MAP_EMBED_URL_1]</mapEmbedUrl>
+        <parking>Available on-site</parking>
+        <floor>Room [ROOM_NUMBER], [FLOOR_LEVEL]</floor>
+        <image>images/clinic-1.svg</image>
+        <schedule>
+          <day name="Saturday" available="true" hours="5:00 PM - 9:00 PM" />
+          <day name="Sunday" available="true" hours="5:00 PM - 9:00 PM" />
+          <day name="Monday" available="true" hours="5:00 PM - 9:00 PM" />
+          <day name="Tuesday" available="false" hours="Closed" />
+          <day name="Wednesday" available="true" hours="5:00 PM - 9:00 PM" />
+          <day name="Thursday" available="true" hours="5:00 PM - 9:00 PM" />
+          <day name="Friday" available="false" hours="Closed" />
+        </schedule>
+      </chamber>
+      <chamber id="chamber-2">
+        <name>[CHAMBER_NAME_2]</name>
+        <hospital>[HOSPITAL_NAME_2]</hospital>
+        <address>[CHAMBER_ADDRESS_2]</address>
+        <city>[CITY_2]</city>
+        <phone>[APPOINTMENT_PHONE_2]</phone>
+        <googleMapsUrl>[GOOGLE_MAPS_URL_2]</googleMapsUrl>
+        <mapEmbedUrl>[MAP_EMBED_URL_2]</mapEmbedUrl>
+        <parking>Street parking available</parking>
+        <floor>Suite [SUITE_NUMBER]</floor>
+        <image>images/clinic-2.svg</image>
+        <schedule>
+          <day name="Tuesday" available="true" hours="10:00 AM - 2:00 PM" />
+          <day name="Friday" available="true" hours="10:00 AM - 2:00 PM" />
+        </schedule>
+      </chamber>
+    </chambers>
+  </chambersSection>
+
+  <!-- 11. TESTIMONIALS -->
+  <testimonialsSection>
+    <title>Patient Stories</title>
+    <testimonials>
+      <testimonial id="1">
+        <patientName>[DEMO_CONTENT] John Smith</patientName>
+        <location>New York, NY</location>
+        <rating>5</rating>
+        <text>Dr. [DOCTOR_NAME] was incredibly thorough during my sinus consultation. I finally have relief after years of struggle.</text>
+        <avatar>images/avatar-1.svg</avatar>
+      </testimonial>
+      <testimonial id="2">
+        <patientName>[DEMO_CONTENT] Sarah Johnson</patientName>
+        <location>Brooklyn, NY</location>
+        <rating>5</rating>
+        <text>Great experience for my son's tonsil surgery. The clinic is very professional and child-friendly.</text>
+        <avatar>images/avatar-2.svg</avatar>
+      </testimonial>
+    </testimonials>
+  </testimonialsSection>
+
+  <!-- 12. FAQ SECTION -->
+  <faqSection>
+    <title>Frequently Asked Questions</title>
+    <faqs>
+      <faq id="faq-1">
+        <question>When should I see an ENT specialist?</question>
+        <answer>You should see an ENT if you experience chronic sinus issues, persistent ear pain, hearing loss, or throat problems that don't resolve with primary care.</answer>
+        <keywords>when to see ENT, specialist consultation</keywords>
+      </faq>
+      <faq id="faq-2">
+        <question>What causes frequent sinus problems?</question>
+        <answer>Frequent sinus problems can be caused by allergies, nasal polyps, a deviated septum, or recurring infections.</answer>
+        <keywords>chronic sinusitis causes, nasal blockage</keywords>
+      </faq>
+      <faq id="faq-3">
+        <question>Is snoring a medical concern?</question>
+        <answer>Snoring can be a sign of sleep apnea, which is a serious condition. An ENT evaluation can determine if the snoring is related to anatomical obstructions.</answer>
+        <keywords>snoring treatment, sleep apnea ENT</keywords>
+      </faq>
+      <faq id="faq-4">
+        <question>What is the recovery time for tonsillectomy?</question>
+        <answer>Recovery typically takes 10 to 14 days for most patients, with children often recovering slightly faster than adults.</answer>
+        <keywords>tonsillectomy recovery, throat surgery</keywords>
+      </faq>
+      <faq id="faq-5">
+        <question>Can allergies affect my hearing?</question>
+        <answer>Yes, allergies can cause fluid buildup in the middle ear (serous otitis media), which leads to a feeling of ear fullness and temporary hearing loss.</answer>
+        <keywords>allergies ear problems, muffled hearing</keywords>
+      </faq>
+    </faqs>
+  </faqSection>
+
+  <!-- 13. BLOG SECTION -->
+  <blogSection>
+    <title>ENT Health Blog</title>
+    <articles>
+      <article id="post-1">
+        <title>[DEMO_CONTENT] 5 Tips to Protect Your Hearing in Loud Environments</title>
+        <slug>protect-your-hearing-tips</slug>
+        <excerpt>Learn how to safeguard your ears from noise-induced hearing loss with these simple steps.</excerpt>
+        <content>Detailed article content about earplugs, volume limits, and regular checkups...</content>
+        <featuredImage>images/blog-1.svg</featuredImage>
+        <category>Ear Health</category>
+        <publishDate>2023-10-15</publishDate>
+        <metaDescription>Practical advice on preventing hearing loss from loud noises.</metaDescription>
+      </article>
+      <article id="post-2">
+        <title>[DEMO_CONTENT] Understanding Chronic Sinusitis: Treatment Options</title>
+        <slug>understanding-chronic-sinusitis</slug>
+        <excerpt>Explore the various ways to manage and treat long-term sinus inflammation.</excerpt>
+        <content>In-depth look at medical and surgical interventions for sinusitis...</content>
+        <featuredImage>images/blog-2.svg</featuredImage>
+        <category>Nose &amp; Sinus</category>
+        <publishDate>2023-11-05</publishDate>
+        <metaDescription>A guide to chronic sinusitis symptoms and management.</metaDescription>
+      </article>
+    </articles>
+  </blogSection>
+
+  <!-- 14. SEO CONFIGURATION -->
+  <seoConfig>
+    <metaDefaults>
+      <title>[DOCTOR_NAME] | Professional ENT Specialist &amp; Surgeon</title>
+      <description>Expert ENT care by Dr. [DOCTOR_NAME]. Specializing in ear, nose, throat, and sinus treatments. Book your consultation today.</description>
+      <keywords>ENT specialist, ear doctor, sinus surgeon, tonsillitis treatment, [CITY] ENT, hearing specialist</keywords>
+      <canonicalUrl>[WEBSITE_URL]</canonicalUrl>
+      <robots>index, follow</robots>
+    </metaDefaults>
+    <openGraph>
+      <ogTitle>Dr. [DOCTOR_NAME] - ENT Specialist Portfolio</ogTitle>
+      <ogDescription>Providing premium medical care for ENT disorders. View services and book appointments online.</ogDescription>
+      <ogImage>images/og-image.svg</ogImage>
+      <ogType>website</ogType>
+    </openGraph>
+    <schemaData>
+      <schemaType>Physician</schemaType>
+      <medicalSpecialty>Otolaryngologic</medicalSpecialty>
+      <hospitalAffiliation>[HOSPITAL_NAME]</hospitalAffiliation>
+    </schemaData>
+  </seoConfig>
+
+  <!-- 15. PERFORMANCE & ACCESSIBILITY -->
+  <technicalConfig>
+    <performance>
+      <lazyLoading>true</lazyLoading>
+      <imageOptimization>WebP preferred</imageOptimization>
+      <minifyAssets>true</minifyAssets>
+    </performance>
+    <accessibility>
+      <ariaLabels>true</ariaLabels>
+      <keyboardNav>true</keyboardNav>
+      <contrastRatio>High</contrastRatio>
+      <altTextRequired>true</altTextRequired>
+    </accessibility>
+  </technicalConfig>
+
+  <!-- 16. COMPONENT SETTINGS (Visibility Toggles) -->
+  <components>
+    <header enabled="true" sticky="true" showContact="true" />
+    <hero enabled="true" showIndicators="true" />
+    <about enabled="true" showSignature="true" />
+    <services enabled="true" layout="grid" />
+    <conditions enabled="true" layout="accordion" />
+    <appointmentForm enabled="true" captcha="true" />
+    <testimonials enabled="true" style="slider" />
+    <chambers enabled="true" showMap="true" />
+    <faq enabled="true" schemaMarkup="true" />
+    <blog enabled="true" limit="3" />
+    <footer enabled="true" showDisclaimer="true" />
+  </components>
+
+  <!-- 17. GENERATION INSTRUCTIONS -->
+  <generationInstructions>
+    <instruction step="1">Parse this XML using a JavaScript DOMParser or equivalent library.</instruction>
+    <instruction step="2">Generate 'index.html' using the hero, about, services, testimonials, and contact sections.</instruction>
+    <instruction step="3">Generate 'services.html' by mapping all items in the servicesSection.</instruction>
+    <instruction step="4">Generate 'blog.html' and individual post pages using the blogSection articles.</instruction>
+    <instruction step="5">Apply CSS from themeSettings (primary color for buttons, headings, etc.).</instruction>
+    <instruction step="6">Inject SEO metadata into the &lt;head&gt; of all generated HTML files.</instruction>
+    <instruction step="7">Ensure 'script.js' handles the mobile menu, form validation, and FAQ accordions.</instruction>
+    <instruction step="8">Replace all [PLACEHOLDERS] with the specific doctor's data provided during the build process.</instruction>
+  </generationInstructions>
+</doctorWebsite>

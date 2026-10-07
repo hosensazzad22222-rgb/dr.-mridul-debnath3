@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="16" fill="#F0F9FF"/>
+  <circle cx="200" cy="120" r="70" fill="#E0F2FE"/>
+  <!-- Moon / night rest icon & continuous airway -->
+  <path d="M170 95a32 32 0 1 0 35 48 30 30 0 0 1-35-48z" fill="#005A9C"/>
+  <path d="M195 130c20-10 35 10 55 0" stroke="#2ECC71" stroke-width="4" stroke-linecap="round"/>
+  <path d="M195 145c20-10 35 10 55 0" stroke="#008080" stroke-width="3" stroke-linecap="round"/>
+  <!-- Zzz -->
+  <text x="235" y="100" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#008080">z</text>
+  <text x="248" y="90" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#005A9C">z</text>
+</svg>

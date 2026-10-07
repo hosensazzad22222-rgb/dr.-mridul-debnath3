@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" fill="none">
+  <rect width="600" height="350" rx="14" fill="#003554"/>
+  <circle cx="150" cy="90" r="120" fill="#005A9C" opacity="0.4"/>
+  <circle cx="480" cy="270" r="140" fill="#008080" opacity="0.3"/>
+  <!-- Sinus Anatomy Medical Diagram Silhouette -->
+  <ellipse cx="300" cy="140" rx="40" ry="25" fill="#0284C7" opacity="0.7"/>
+  <ellipse cx="270" cy="180" rx="20" ry="30" fill="#2ECC71" opacity="0.6"/>
+  <ellipse cx="330" cy="180" rx="20" ry="30" fill="#2ECC71" opacity="0.6"/>
+  <path d="M300 120v90M250 170h100" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="3 3"/>
+  <text x="300" y="275" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#FFFFFF" text-anchor="middle">Chronic Sinusitis &amp; Inflammation</text>
+  <text x="300" y="305" font-family="'Roboto', sans-serif" font-size="13" fill="#94A3B8" text-anchor="middle">Medical Therapies · Endoscopic Surgery · Allergy Triggers</text>
+</svg>

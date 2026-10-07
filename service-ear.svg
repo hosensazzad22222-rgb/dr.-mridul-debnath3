@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="16" fill="#F0F9FF"/>
+  <!-- Ear & Otoscope Art -->
+  <circle cx="200" cy="120" r="70" fill="#E0F2FE"/>
+  <!-- Ear outline -->
+  <path d="M190 70c35 0 55 25 55 55 0 25-15 35-25 45-8 8-10 18-10 25h-15c0-15 5-25 15-35 8-8 15-18 15-35 0-20-15-35-35-35s-30 15-30 35h-15c0-30 20-55 45-55z" fill="#005A9C"/>
+  <path d="M185 105c10 0 18 8 18 18s-8 18-18 18" stroke="#008080" stroke-width="4" stroke-linecap="round"/>
+  <!-- Otoscope diagnostic beam -->
+  <path d="M130 150l40-30" stroke="#2ECC71" stroke-width="4" stroke-dasharray="3 3"/>
+  <circle cx="170" cy="120" r="5" fill="#2ECC71"/>
+</svg>

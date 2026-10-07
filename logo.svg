@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#005A9C"/>
+  <path d="M32 16v32M16 32h32" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="14" stroke="#2ECC71" stroke-width="3" stroke-dasharray="4 4"/>
+  <path d="M46 22c2 3 3 6.5 3 10s-1 7-3 10" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="76" y="28" font-family="'Inter', sans-serif" font-size="19" font-weight="700" fill="#002147">ENT CLINIC</text>
+  <text x="76" y="47" font-family="'Roboto', sans-serif" font-size="12" font-weight="500" fill="#008080" letter-spacing="1.5">SPECIALIST CARE</text>
+</svg>

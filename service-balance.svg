@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect width="400" height="240" rx="16" fill="#F8FAFC"/>
+  <circle cx="200" cy="120" r="70" fill="#DCFCE7"/>
+  <!-- Semicircular canals (Vestibular balance apparatus) -->
+  <path d="M185 110c0-20 15-35 35-35s35 15 35 35" stroke="#005A9C" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M165 130c-20 0-35-15-35-35s15-35 35-35" stroke="#008080" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="195" cy="135" r="16" fill="#2ECC71" opacity="0.6"/>
+  <!-- Balance scale horizon -->
+  <line x1="145" y1="170" x2="255" y2="170" stroke="#002147" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="200,158 194,170 206,170" fill="#002147"/>
+</svg>
